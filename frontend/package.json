@@ -1,0 +1,36 @@
+{
+  "name": "annotation-tool",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.701.0",
+    "@react-three/drei": "^9.109.2",
+    "@react-three/fiber": "^8.17.5",
+    "axios": "^1.7.8",
+    "bootstrap-icons": "^1.11.3",
+    "dompurify": "^3.2.2",
+    "dotenv": "^16.4.7",
+    "draft-js": "^0.11.7",
+    "draft-js-export-html": "^1.4.1",
+    "draft-js-import-html": "^1.4.1",
+    "gsap": "^3.12.5",
+    "next": "14.2.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "socket.io-client": "^4.8.1",
+    "tailwind-scrollbar": "^3.1.0",
+    "three": "^0.167.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
